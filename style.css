@@ -1,0 +1,71 @@
+*{
+    margin: 0%;
+    padding: 0%;
+
+}
+.nav{
+    background-color: gray;
+    height: 50px;
+}
+.heading{
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 28%;
+}
+.container{
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 35px;
+    width: 95%;
+    height: 65%;
+    background-image: url(img1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border: 10px;
+    border-radius: 30px;
+}
+.content_text{
+    margin-top: 10%;
+    margin-left: 13%;
+    font-size: 70px;
+    width: 35%;
+    color: white;
+    font-family: Arial;
+}
+.button{
+    height: 30px;
+    width: 100px;
+    margin-left: 14%;
+    background-color:white;
+    border-radius: 20px;
+    border: none;
+    font-family: Arial;
+    font-weight: bold;
+}
+.product{
+    position: absolute;
+    margin-top: 14%;
+    margin-left: 06%;
+    font-style: italic;
+    font-family: Arial;
+    font-size: large;
+    color: gray;
+
+}
+.gallery{
+    position: absolute;
+    margin-top: 18%;
+    margin-left: 12%;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.gallery img{
+    width: 20%;
+    border-color: black;
+    border: solid 2px;
+    color: black;
+    border-radius: 20px;
+    
+}
